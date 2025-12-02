@@ -30,7 +30,7 @@ import os
 # ---------------- USER PARAMETERS ----------------
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MB_CSV = os.path.join(BASE_DIR, "data/processed/reconstructed_mass_balance_1935_2024.csv")
+MB_CSV = os.path.join(BASE_DIR, "data/processed/reconstructed_mass_balance_1931_2024.csv")
 OUTPUT_CSV = os.path.join(BASE_DIR, "data/processed/oberaarg_volume_projection.csv")
 OUTPUT_PLOT = os.path.join(BASE_DIR, "visualisations/projection/oberaarg_volume_projection.png")
 os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
